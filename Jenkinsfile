@@ -7,8 +7,10 @@ pipeline {
         stage('List Files') {
             steps {
                 dir('src/main') {
-                    sh 'ls -la'
+                    sh 'ls -l'
                 }
         }
     }
+}
+
 }
